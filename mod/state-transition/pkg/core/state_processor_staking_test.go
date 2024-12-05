@@ -39,7 +39,7 @@ import (
 )
 
 // TestTransitionUpdateValidators shows that when validator is
-// updated (increasing amount), corresponding balance is updated.
+// updated (increasing amount), corrensponding balance is updated.
 func TestTransitionUpdateValidators(t *testing.T) {
 	cs := setupChain(t, components.BetnetChainSpecType)
 	sp, st, ds, ctx := setupState(t, cs)
